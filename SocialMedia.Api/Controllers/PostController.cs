@@ -106,6 +106,7 @@ namespace SocialMedia.Api.Controllers
             var result = await _postService.DeletePost(id);
             var response = new ApiResponse<bool>(result);
             return Ok(response);
+            
         }
     }
 }
